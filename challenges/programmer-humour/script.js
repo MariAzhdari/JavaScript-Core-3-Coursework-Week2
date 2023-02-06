@@ -15,5 +15,6 @@ fetch("https://xkcd.now.sh/?comic=latest")
 
 .catch(er => console.log(er));
 }
+
 btn.addEventListener("click", ShowImg);
 
